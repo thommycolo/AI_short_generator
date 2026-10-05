@@ -1,0 +1,32 @@
+# Ambienti virtuali Python
+venv/
+.venv/
+env/
+ENV/
+
+# Bytecode e cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Modelli AI locali
+models/*
+!models/.gitkeep
+!models/tts/.gitkeep
+
+# Cartelle operative di lavoro (workspace)
+workspace/input/*
+!workspace/input/.gitkeep
+workspace/output/*
+!workspace/output/.gitkeep
+workspace/temp/*
+!workspace/temp/.gitkeep
+
+# Storie elaborate (archivio)
+stories/archive/*
+!stories/archive/.gitkeep
+
+# File multimediali generati o temporanei
+*.mp4
+*.mp3
+*.wav
